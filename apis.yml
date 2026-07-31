@@ -1,7 +1,27 @@
 aid: occipital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/occipital.png
 name: Occipital
-description: Occipital is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Occipital is a computer-vision and 3D-scanning company known for the Structure
+  Sensor depth camera and the Canvas home-scanning app, built on more than fifteen
+  years of spatial-computing expertise. The Canvas product line (formerly canvas.io)
+  now operates as Twindo, a spatial intelligence platform that turns iPhone/iPad
+  LiDAR scans, floor plans, and point clouds into accurate, editable CAD and BIM
+  files for architecture, interior design, construction, remodeling, multifamily
+  residential, retail, hospitality, and fire-safety professionals. As of this
+  enrichment pass the company exposes end-user scanning apps, a web viewer, and a
+  support center, but publishes no public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/occipital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- 3D Scanning
+- Computer Vision
+- Spatial Computing
+- LiDAR
+- CAD
+- BIM
+- Point Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/occipital-domain-security.yml
 - type: Website
-  url: https://canvas.io/
+  url: https://www.twindo.com/
+- type: Support
+  url: https://support.twindo.com/
