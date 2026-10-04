@@ -46,7 +46,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - 3D Scanning
-- Computer-Vision
+- Computer Vision
 - Spatial Computing
 - LiDAR
 - CAD
@@ -61,6 +61,7 @@ tags_raw:
 - CAD
 - BIM
 - Point Cloud
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
