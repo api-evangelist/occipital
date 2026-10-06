@@ -42,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - 3D Scanning
@@ -74,6 +74,10 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://www.twindo.com/category/blog/
+  type: Blog
+- url: https://www.twindo.com/category/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/occipital-domain-security.yml
 - type: Website
